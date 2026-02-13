@@ -4,6 +4,13 @@ A gentle Pomodoro timer designed to reduce pressure rather than increase it. Thi
 
 I’m inspired by pastel / retro pixel visual timers (the kind you find on YouTube), and I wanted to try making my own: something simple, calming, and easy on the eyes. This project also explores neurodivergence-friendly design choices, especially around low-pressure language and **PDA-aware** encouragement (PDA = Pathological Demand Avoidance). 
 
+## Screenshots
+
+### Main Window
+![Main Window](docs/main-window.png)
+
+### Mini Window
+![Mini Window](docs/mini-window.png)
 ## Design Philosophy
 
 I learn best by building real things that I actually want to use. 
