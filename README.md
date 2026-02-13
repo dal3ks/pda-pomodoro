@@ -1,4 +1,5 @@
 # pda-pomodoro
+**Status:** v1.0.0 – Stable Initial Release
 
 A gentle Pomodoro timer designed to reduce pressure rather than increase it. This is a personal experiment built exploring “cute + accessible” focus tools. 
 
@@ -7,10 +8,14 @@ I’m inspired by pastel / retro pixel visual timers (the kind you find on YouTu
 ## Screenshots
 
 ### Main Window
+
 ![Main Window](docs/main-window.png)
 
 ### Mini Window
+
 ![Mini Window](docs/mini-window.png)
+
+
 ## Design Philosophy
 
 I learn best by building real things that I actually want to use. 
@@ -45,15 +50,34 @@ This project reflects both my interest in accessibility-aware design and my appr
 
 This project reflects my approach to learning tech: build something small, ship it, and refine it.
 
+Technical Details
+
+Built with Python
+
+UI created using Tkinter
+
+Custom pixel-art hourglass rendered via Tkinter Canvas
+
+Settings persisted using JSON
+
+Sound handled via pygame
+
+Packaged into a Windows executable using auto-py-to-exe
+
+Version controlled with Git
+
 ## Project Structure
 
 ```text
 pda-pomodoro/
-  src/
-    pda_pomodoro.py
-  assets/
-    pocketwatch.ico
-    <notification sound file>
+│
+├── assets/        # Icon + sound files
+├── src/           # Application source code
+├── docs/          # Screenshots
+├── README.md
+├── LICENSE
+└── .gitignore
+
   README.md
   LICENSE
   .gitignore
